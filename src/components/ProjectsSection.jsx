@@ -6,7 +6,7 @@ const projects = [
     title: "SaaS Store Website",
     description: "A beautiful Store  app using Next js .",
     image:
-      "/public/projects/screencapture-store-basemodel-projcet-vercel-app-2025-05-11-03_10_24.png",
+      "./public/projects/screencapture-store-basemodel-projcet-vercel-app-2025-05-11-03_10_24.png",
     tags: [
       "Next.js",
       "TailwindCSS",
@@ -25,7 +25,7 @@ const projects = [
     title: "jobify ",
     description: " Job tracking app",
     image:
-      "/public/projects/screencapture-jobify-app-phi-vercel-app-add-job-2025-05-11-03_27_23.png",
+      "./public/projects/screencapture-jobify-app-phi-vercel-app-add-job-2025-05-11-03_27_23.png",
     tags: ["Next.js", "TypeScript", "Tailwind", "prisma", "clerk", "shadcn/ui", "Supabase"],
     demoUrl: "https://jobify-app-phi.vercel.app/",
     githubUrl: "https://github.com/YoussefAbdelrazk/jobify-app",
@@ -35,7 +35,7 @@ const projects = [
     title: "Netfilx Clone",
     description: "A Netflix clone app using Next js and Tailwind CSS.",
     image:
-      "/public/projects/screencapture-netflix-clone-tau-orpin-83-vercel-app-2025-05-11-03_34_21.png",
+      "./public/projects/screencapture-netflix-clone-tau-orpin-83-vercel-app-2025-05-11-03_34_21.png",
     tags: ["React", "Node.js", "Stripe"],
     demoUrl: "https://netflix-clone-tau-orpin-83.vercel.app/",
     githubUrl: "https://github.com/YoussefAbdelrazk/netflix-clone",
