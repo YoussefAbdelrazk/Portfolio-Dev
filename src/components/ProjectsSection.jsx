@@ -3,32 +3,42 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
+    title: "SaaS Store Website",
+    description: "A beautiful Store  app using Next js .",
+    image:
+      "/public/projects/screencapture-store-basemodel-projcet-vercel-app-2025-05-11-03_10_24.png",
+    tags: [
+      "Next.js",
+      "TailwindCSS",
+      "Supabase",
+      "Stripe",
+      "prisma",
+      "clerk",
+      "shadcn/ui",
+      "TypeScript",
+    ],
+    demoUrl: "https://store-basemodel-projcet.vercel.app/",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
-    description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "jobify ",
+    description: " Job tracking app",
+    image:
+      "/public/projects/screencapture-jobify-app-phi-vercel-app-add-job-2025-05-11-03_27_23.png",
+    tags: ["Next.js", "TypeScript", "Tailwind", "prisma", "clerk", "shadcn/ui", "Supabase"],
+    demoUrl: "https://jobify-app-phi.vercel.app/",
+    githubUrl: "https://github.com/YoussefAbdelrazk/jobify-app",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
+    title: "Netfilx Clone",
+    description: "A Netflix clone app using Next js and Tailwind CSS.",
+    image:
+      "/public/projects/screencapture-netflix-clone-tau-orpin-83-vercel-app-2025-05-11-03_34_21.png",
     tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://netflix-clone-tau-orpin-83.vercel.app/",
+    githubUrl: "https://github.com/YoussefAbdelrazk/netflix-clone",
   },
 ];
 
@@ -42,8 +52,8 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was carefully
-          crafted with attention to detail, performance, and user experience.
+          Here are some of my recent projects. Each project was carefully crafted with attention to
+          detail, performance, and user experience.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -62,7 +72,7 @@ export const ProjectsSection = () => {
 
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.tags.map((tag) => (
+                  {project.tags.map(tag => (
                     <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
                       {tag}
                     </span>
@@ -70,9 +80,7 @@ export const ProjectsSection = () => {
                 </div>
 
                 <h3 className="text-xl font-semibold mb-1"> {project.title}</h3>
-                <p className="text-muted-foreground text-sm mb-4">
-                  {project.description}
-                </p>
+                <p className="text-muted-foreground text-sm mb-4">{project.description}</p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
                     <a
@@ -100,7 +108,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/YoussefAbdelrazk"
           >
             Check My Github <ArrowRight size={16} />
           </a>
